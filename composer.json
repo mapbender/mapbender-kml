@@ -1,0 +1,23 @@
+{
+    "name": "mapbender/kml",
+    "description": "Mapbender kml",
+    "keywords": ["mapbender", "kml"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Wygoda"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {
+            "Mapbender\\KmlBundle": "src/"
+        }
+    }
+}
